@@ -772,7 +772,17 @@ function display(){
 
 
 }
+
+
+
         </script>
+
+<script>
+  var video = document.getElementsByTagName('video')[0];
+  video.addEventListener('loadedmetadata', function() {
+    video.play();
+  });
+</script>
   <script src="assets/js/main.js"></script>
   <script src="assets/js/script.js"></script>
 
