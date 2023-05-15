@@ -1444,7 +1444,7 @@ section {
 
   color: #fff;
   position: relative;
-  background-image: url('../img/Artboard\ 12-100.jpg');
+  background-image: url('../img/network.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   /* height: 60vh; */
@@ -1740,7 +1740,7 @@ section {
 /* services---------------------------------------- -----------------------*/
 /* first-service-corporate */
 .corporate-service-banner{
-   background-image: url('/assets/img/Service.jpg');
+   background-image: url('../img/Service.jpg');
   background-color: #1E4356;
   color: #fff;
   height:60vh;
@@ -1754,7 +1754,7 @@ section {
 /* second-service-business-management -----------------------------------*/
 
 .business-service-banner{
-  background-image: url('/assets/img/Strategy\ and\ Management.jpg');
+  background-image: url('../img/strategy.jpg');
   height:60vh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1763,7 +1763,7 @@ section {
 }
 /* third-service-real-estate---------------------------------- */
 .real-estate-service-banner{
-  background-image: url('/assets/img/Real\ Estate\ Investment\ Advisory.jpg');
+  background-image: url('../img/real.jpg');
   height:60vh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1777,6 +1777,7 @@ section {
   color: #fff;
   width: 56%;
   position: relative;
+  overflow: hidden;
 
   padding: 66px 0;
   margin-bottom: 66px;
