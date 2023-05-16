@@ -1330,7 +1330,7 @@ section {
 --------------------------------------------------------------*/
 .call-to-action {
   background: linear-gradient(rgba(27, 47, 69, 0.8), rgba(27, 47, 69, 0.8)),
-   url("https://img.freepik.com/free-photo/office-desktop-with-laptop-business-man_23-2148174087.jpg?size=626&ext=jpg&ga=GA1.1.1514145173.1681840861&semt=ais") center;
+   url("../img/contact-us.jpg") center;
   background-size: cover;
   background-repeat: no-repeat;
   padding: 100px 0;
@@ -1461,7 +1461,7 @@ section {
   margin: 10px;
   font-size: 20px;
   font-weight: 400;
-  text-align: justify;
+  /* text-align: justify; */
 
 }
 @media (min-width: 300px) and (max-width: 768px) {
@@ -1597,7 +1597,6 @@ section {
 .expertise i{
   font-size: 25px;
   margin-right: 10px;
-  
   color: #68A4C4;
 }
 .expertise i:hover{
@@ -1607,9 +1606,17 @@ section {
  color: rgba(0, 0, 0, 0.4);
 }
 
+.expertise .hidden-hr{
+   display: none;
+} 
+@media (min-width: 300px) and (max-width: 567px) {
+  .expertise .hidden-hr{
+    display: block;
+  }
 
+}
 /*--------------------------------------------------------------
-# Team
+# Team 
 --------------------------------------------------------------*/
 
 
