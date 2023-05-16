@@ -1329,7 +1329,8 @@ section {
 # Call To Action Section
 --------------------------------------------------------------*/
 .call-to-action {
-  background: linear-gradient(rgba(27, 47, 69, 0.8), rgba(27, 47, 69, 0.8)), url("https://img.freepik.com/free-photo/office-desktop-with-laptop-business-man_23-2148174087.jpg?size=626&ext=jpg&ga=GA1.1.1514145173.1681840861&semt=ais") center;
+  background: linear-gradient(rgba(27, 47, 69, 0.8), rgba(27, 47, 69, 0.8)),
+   url("https://img.freepik.com/free-photo/office-desktop-with-laptop-business-man_23-2148174087.jpg?size=626&ext=jpg&ga=GA1.1.1514145173.1681840861&semt=ais") center;
   background-size: cover;
   background-repeat: no-repeat;
   padding: 100px 0;
@@ -1485,7 +1486,7 @@ section {
 
   .network-img {
     /* margin-left: 40px; */
-    background-color: #2282ff;
+
     margin: auto ;
     width: 75%;
   
