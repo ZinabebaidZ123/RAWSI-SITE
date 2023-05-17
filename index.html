@@ -80,7 +80,7 @@
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex justify-cntent-center align-items-center">
     <div class="video-layer">
-      <video poster ="" class=" " id="" playsinline autoplay muted loop >
+      <video poster ="" class=" " id="video" playsinline autoplay muted loop >
   
         <source src="assets/img/King Abdullah Financial District Cinematic Drone Footage.mp4" type="video/webm">
         <source src="assets/img/King Abdullah Financial District Cinematic Drone Footage.mp4" type="video/mp4">
@@ -194,7 +194,7 @@
 
        
       <div class="iframe   text-center d-flex justify-content-center">
-          <iframe src="Rawasi Profile 2020.pdf" frameborder="0" class="profile w-75 " id = "profile"></iframe>
+          <iframe src="Rawasi Profile 2020.pdf" frameborder="0" class="profile w-75 " id = "profile" "about:blank"></iframe>
        </div>
 
       </div>
@@ -636,12 +636,18 @@ profile.classList.toggle("d-block");
 
   <script src="assets/js/main.js"></script>
   <script src="assets/js/script.js"></script>
-  <script>
+  <!-- <script>
     var video = document.getElementsByTagName('video')[0];
     video.addEventListener('loadedmetadata', function() {
     video.play();
     });
-    </script>
+    </script> -->
+<script>
+$(document).ready(function() {
+  var video = document.getElementById("myVideo");
+  video.autoplay = true;
+});
+</script>
 
 </body>
 
